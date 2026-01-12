@@ -35,7 +35,7 @@ No additional installations beyond standard pip packages are needed, as the scri
 1. Clone the repository:
    ```
    git clone https://github.com/sharpsalt/Captionforge-Vision-Language-Model.git
-   cd image-captioning-transformer
+   cd Captionforge-Vision-Language-Model
    ```
 2. Install dependencies:
    ```
