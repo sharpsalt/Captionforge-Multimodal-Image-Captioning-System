@@ -1,5 +1,4 @@
 # Captionforge-Vision-Language-Model
-# Image Captioning with Transformer Decoder
 
 This project implements an end-to-end image captioning model using a ResNet50-based encoder and a Transformer decoder in PyTorch. It processes the Flickr8k dataset, trains the model with data augmentation and synonym replacement for captions, and evaluates performance using BLEU scores across multiple inference methods (greedy search, beam search with varying widths, and nucleus sampling). The model generates descriptive captions for images, achieving reasonable BLEU scores on a test set.
 
@@ -129,7 +128,8 @@ For a visual diagram, use tools like Draw.io or Lucidchart to create a flowchart
 
 ## Results
 Evaluated on 1000 test samples. BLEU scores (higher is better):
-<img width="1420" height="349" alt="image" src="https://github.com/user-attachments/assets/1733e51d-2a6e-4e74-8b6c-98111f258a2c" />
+<img width="1475" height="386" alt="image" src="https://github.com/user-attachments/assets/a61c3bdc-2797-4372-abe2-c8d099f8c940" />
+
 
 
 
