@@ -1,4 +1,4 @@
-# Captionforge-Vision-Language-Model
+# Captionforge-Multimodal Image Captioning System
 
 This project implements an end-to-end image captioning model using a ResNet50-based encoder and a Transformer decoder in PyTorch. It processes the Flickr8k dataset, trains the model with data augmentation and synonym replacement for captions, and evaluates performance using BLEU scores across multiple inference methods (greedy search, beam search with varying widths, and nucleus sampling). The model generates descriptive captions for images, achieving reasonable BLEU scores on a test set.
 
